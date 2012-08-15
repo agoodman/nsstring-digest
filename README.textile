@@ -4,13 +4,12 @@ Categories on NSString that provide digest hashing methods.
 
 h2. MD5
 
-@#import "NSString+MD5.h"@
+bc. #import "NSString+MD5.h"
 
-@NSString* tMD5 = [@"your string" md5];@
+bc. NSString* tMD5 = [@"your string" md5];
 
 h2. SHA1
 
-@#import "NSString+SHA1.h"@
+bc. #import "NSString+SHA1.h"
 
-@NSString* tSHA1 = [@"your string" hexdigest];@
-
+bc. NSString* tSHA1 = [@"your string" hexdigest];
